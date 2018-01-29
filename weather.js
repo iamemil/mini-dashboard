@@ -1,3 +1,4 @@
+$( document ).ready(function() {
 function fn30minutes() {
   var fTemp,cTemp;  
   
@@ -36,7 +37,9 @@ function fn30minutes() {
       $(".weatherType").html("<i class=\"wi wi-snowflake-cold\"></i>");   
      }  
    });   
+
   }
   fn30minutes();
   setInterval(fn30minutes, 30*10*1000);
+});
   
