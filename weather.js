@@ -4,7 +4,7 @@ function fn30minutes() {
   
    
     //Create API with GEOLOCATION
-  var api = 'http://api.openweathermap.org/data/2.5/weather?q=Baku,az&appid=896ddd233198ecb7a263b01cd3ca3962';
+  var api = 'https://api.openweathermap.org/data/2.5/weather?q=Baku,az&appid=896ddd233198ecb7a263b01cd3ca3962';
           
    $.getJSON(api,function(data){
      //JSON call open weather API
